@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii</title>
+    <link href="mystyle.css" rel="stylesheet">
+    <script src="formvalidator.js"></script>
+</head>
+<body>
+    <header>
+        <h1>State: Hawaii</h1>
+    </header>
+    <img src="https://i.redd.it/8xdfehof5p021.jpg" alt="Hawaii Sunrise" width="800"  height= "400" class="pix">
+
+    <nav>
+        <ul>
+            <li><a href="Home"target="_self">Home</a></li> 
+            <li><a href="Honolulu"target="_blank">Honolulu</a></li>
+            <li> <a href="Waimea" target="_blank">Waimea</a></li>
+            <li><a href="Kaneohe" target="_blank">Kaneohe</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <p>Population: 1.4 million people((U.S. Census Bureau, 2023))</p>
+        <p>Average State Income: $107,000 (Yee, 2022)</p>
+        <p>Hawaii became a state on August 21, 1959 (Nakamura & Nakamura, 2024)</p>
+        <p>Hawaii is an Island Chain, 2,000 miles southwest of the US mainland(Wikipedia contributors, 2024b)</p>
+        <p>Hawaii is a mix of urban, suburban and rural area s (Wikipedia contributors, 2024b)</p>
+    </section>
+    <aside>
+       <h3>Cities</h3>
+        <table class="organization"> 
+            <th>City</th>
+            <th>Island</th>
+            <th>Nicknames</th>
+            <tr>
+                <td>Honolulu</td>
+                <td>Oahu</td>
+                <td>The Gathering Place</td>
+            </tr>
+            <tr>
+                <td>Waimea</td>
+                <td>Hawaii</td>
+                <td>The Big Island</td>
+            </tr>
+            <tr>
+                <td>Kaneohe</td>
+                <td>Oahu</td>
+                <td>The Windward Side</td>
+            </tr>
+        </table>
+    </aside>
+    <form class="userInput">
+        <label for="first">First Name:</label>
+        <input type ="text" id="first" name="first" placeholder="First Name">
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" name="last" placeholder="Last Name">
+        <label for="questionBox">Questions?</label>
+        <input type="textbox" id="questionBox" name="questionBox" placeholder="Enter your questions here!">
+        <input type="submit" label="submit">
+    </form>
+
+    <form id="myForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email1" name="email1" placeholder="Enter Your Email Here" required>
+        <label for="reEmail">Verify Your Email:</label>
+        <input type="email" id="reEmail" name="reEmail" placeholder="Verify Email here" required>
+        <input type="button" id="validateForm" value="Validate Form">
+        <p>If your email submission turns red, your emails do not match, please put in matching emails</p>
+    </form>
+
+
+    <!--<form id="emailForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="confirmEmail">Confirm Email:</label>
+        <input type="email" id="confirmEmail" name="confirmEmail" required>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="errorMessage" style="color:red"></p>
+
+    <script src="formvalidator.js"></script>-->
+
+</body>
+</html>
